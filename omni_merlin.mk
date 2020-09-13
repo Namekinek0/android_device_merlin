@@ -17,6 +17,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist,sys,usb,config=mtp
 
+# I'm not totally sure about these last values
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	BUILD_FINGERPRINT="Redmi/merlin_global/merlin:10/QP1A.190711.020/V12.0.3.0.QJOMIXM:user/release-keys" \
 	PRIVATE_BUILD_DESC="merlin-user 10 QP1A.190711.020 V12.0.3.0.QJOMIXM release-keys"
